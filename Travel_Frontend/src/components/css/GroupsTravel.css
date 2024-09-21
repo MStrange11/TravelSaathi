@@ -1,0 +1,92 @@
+/* General form styling */
+.groups-travel form {
+    display: flex;
+    margin: 10rem auto;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    /* Optional: add a shadow */
+}
+
+/* Location input styling */
+.groups-travel input[type="text"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.groups-travel input[type="text"]::placeholder {
+    color: #bbb;
+}
+
+/* Dropdown styling */
+.groups-travel select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fff;
+    appearance: none;
+    outline: none;
+}
+
+/* Checkbox styling */
+.groups-travel label {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.groups-travel1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr;
+    /* 1 part for the first column, 3 parts for the second */
+    gap: 10px;
+    /* Optional: Adjust gap between checkboxes and labels */
+    justify-items: start;
+    /* Align checkboxes and labels to the left */
+    align-items: center;
+    /* Vertically align items */
+}
+
+.groups-travel1 input[type="checkbox"] {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+    /* margin-right: 10px; */
+    width: 18px;
+    height: 18px;
+}
+
+/* Submit button styling */
+.groups-travel button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #00B4CC ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.groups-travel button:hover {
+    background-color: black;
+}
